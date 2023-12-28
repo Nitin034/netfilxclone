@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.Main-box{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Images/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: repeat;
+}
+.opacity-box{
+     width: 100vw;
+     height: 90vh;
+     opacity: 0.6;
+     background-color: black;
+     position: absolute;
+
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.589);
+     
+}
+.logo-span{
+    width: 200px;
+    margin-top: 15px;
+    display: flex;
+}
+ 
+.nav-buton{
+    display: flex;
+    gap: 10px 20px;
+}
+.nav-buton select{
+    padding: 5px 10px;
+    margin: 15px 5px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+}
+ 
+.nav-buton button{
+    padding: 5px 10px;
+    margin: 15px 5px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+.main-item{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    
+}
+ 
+.main-text h1{
+    color: white;
+    width: 75rem;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px;
+}
+.main-text span{
+     color: white;
+     font-size: 30px;
+     font-weight: 300;
+     gap: 10px 10px;
+     margin: 20px;
+}
+.main-text h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+}
+ 
+.input-box input{
+    padding: 14px 20px;
+    width: 22rem;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.489);
+    border: 1px solid rgba(255, 255, 255, 0.74);
+    border-radius: 5px;
+    margin: 10px;
+     
+}
+.input-box button{
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+     
+}
+.section-era{
+    width: 100vw;
+    padding: 7rem;
+    background: black;
+    border-top: 10px solid rgba(255, 255, 255, 0.244);
+    /* border-bottom: 10px solid rgba(255, 255, 255, 0.244) ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-era{
+     color: azure;
+     display: flex;
+     flex-direction: column;  
+    
+}
+.text-era h1{ 
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+     
+}
+.text-era h5{
+    font-size: 30px;
+    font-weight: 400;
+    width: 40rem;
+    line-height: 40px;
+     
+}
+.img-era{
+    color: azure;
+    display: flex;
+}
+.img-era img{
+   width: 30vw;
+   position: relative;
+   z-index: 10;
+   
+}
+.img-era video{
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 80px;
+   
+   
+}
+ 
+.qus-era{
+    width: 80vw;
+    background: rgba(255, 255, 255, 0.129);
+    padding: 15px 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.qus-era:hover{
+    background-color: rgb(63, 59, 59);
+}
+.qus-era h4{
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+.qus-era a{
+    display: flex;
+    font-size: 20px;
+    color: azure;
+}
+.fre-era{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.email-era{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px ;
+    flex-direction: column;
+}
+.email-era h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.email-era h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.footer-era{
+    background: black;
+    border-top: 10px solid rgba(255, 255, 255, 0.244);
+    padding: 20px; 
+}
+.four-era{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    
+}
+.footer-era a{
+    display: flex;
+    color: rgba(255, 255, 255, 0.685);
+    flex-direction: column;
+    text-decoration: underline;
+    margin: 10px;
+}
+.footer-era h1{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 10px 20px 20px;
+}
+.lang-era{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 20px 1px;
+}
+.lang-era span{
+   
+}
+ 
+ 
+
+ 
