@@ -1,2 +1,2 @@
 # netfilxclone
-using react-js
+using html css and javascript
